@@ -1,0 +1,85 @@
+.Sidebar{
+    /* Frame 1 */
+    position: absolute;
+    width: 240px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    background: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+}
+
+
+
+.logo{
+    position: absolute;
+    width: 167px;
+    height: 167px;
+    left: 32px;
+    top: 21px;
+
+
+}
+
+/*menu*/
+.Menu{
+    /* Frame 3 */
+    /* Auto layout */
+    margin-top: 15rem;
+    display: flex;
+    order: 0;
+    flex-grow: 0;
+    flex-direction: column;
+    gap:24px;
+    }
+
+
+.MenuItem{
+
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    gap: 22px;
+    height: 40px;
+    width: 167px;
+    margin-left: 2rem;
+    position: relative;
+    transition: all 300ms ease;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+/* identical to box height, or 150% */
+    color: #808080;
+    
+    
+
+   
+}
+
+.MenuItem:hover{
+    cursor: pointer;
+    background: #B4CD93;
+    justify-content: center;
+    
+    
+
+}
+
+.active{
+    background: var(--activeItem);
+
+    
+}
+
+.Menu .MenuItem:last-child {
+    position: absolute;
+    bottom: 136px;
+    width: 129px;
+    height: 40px;
+
+  }
+  

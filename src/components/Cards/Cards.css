@@ -1,0 +1,52 @@
+.dashboard {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+position: absolute;
+}
+  
+.card {
+    
+    left: 600px;
+    top: 0px;
+    width: 268px;
+    height: 116px;
+    background: rgba(5, 255, 40, 0.25);
+    border-radius: 10px;
+    flex:none
+    
+}
+
+.card .icon {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top:41px;
+    left:41px;
+  }
+  
+  .card .value {
+    position: absolute;
+    width: 15px;
+    height: 30px;
+    left: 111px;
+    top: 33px;
+  }
+  
+  .card .title {
+    position: absolute;
+    width: 40px;
+    height: 19px;
+    left: 111px;
+    top: 64px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.22px;
+    line-height: 19px;
+    color: #06152B;
+    opacity: 0.7;
+  }
+  

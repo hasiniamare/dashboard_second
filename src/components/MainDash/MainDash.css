@@ -1,0 +1,38 @@
+.MainDash{
+position: absolute;
+width: 128px;
+height: 31px;
+left: 271px;
+top: 70px;
+}
+
+.Dashboard{
+    
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+
+/* Light Version/Type/Text Dark */
+
+color: #06152B;
+}
+.AvailableSeats{
+position: absolute;
+width: 1px;
+height: 346px;
+left: 1172px;
+top: 322px;
+background: rgba(242, 242, 242, 0.8);
+border-radius: 12px;
+}
+.AvailableSeats.img.Seat{
+    /* Rectangle 23 */
+
+width: 184px;
+height: 184px;
+left: 1216px;
+top: 357px;
+overflow: hidden;
+}
